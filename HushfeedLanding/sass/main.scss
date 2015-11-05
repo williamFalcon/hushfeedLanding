@@ -10,22 +10,75 @@
     font-family: $HF-FONT-AVENIR-LT;
   }
 
-  #mobile {
-    width: inherit;
-
-  }
-
   .background-image {
     height: 100%;
     background: url(../img/background.jpg);
     background-size: cover;
   }
+
+  .align-vertical-center-container {
+    height: inherit;
+    width: inherit;
+    display: inline-table;
+
+    .align-vertical-center-element {
+      width: inherit;
+      height: inherit;
+      vertical-align: middle;
+      display: table-cell;
+    }
+  }
+
+  .center {
+    text-align: center;
+    margin: auto;
+  }
+
   //Override margin for bootstrap
   .row {
     margin: 0;
   }
 
-  #main-holder {
-
+  #mobile {
+    width: inherit;
   }
+
+  #web {
+    width: 100%;
+    height: 100%;
+
+    #web-center-container {
+      margin: 0 10% 0 10%;
+      width: 80%;
+      height: 100%;
+
+      #web-nav-bar {
+        width: 100%;
+        height: 100px;
+      }
+
+      .web-nav-link {
+        width: 150px;
+        height: 100%;
+        color: #00ADE1;
+        font-family: $HF-FONT-AVENIR-LT;
+        font-size: 20px;
+        font-weight: 300;
+        transition-duration: 0.1s;
+
+        a {
+          text-decoration: none;
+        }
+
+        &:hover {
+          color: #00B7FF;
+          background-color: rgba(255,255,255,0.2);
+          transition-duration: 0.2s;
+          transform: scale(1.05);
+
+        }
+      }
+    }
+  }
+
 }
