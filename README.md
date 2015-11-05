@@ -1,2 +1,0 @@
-# hushfeedLanding
-Hushfeed Landing Page
