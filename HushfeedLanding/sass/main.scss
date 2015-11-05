@@ -1,0 +1,31 @@
+@import "./hf-colors";
+@import "./hf-fonts";
+
+.hushfeed {
+  width: 100%;
+  height: 100%;
+
+
+  .text {
+    font-family: $HF-FONT-AVENIR-LT;
+  }
+
+  #mobile {
+    width: inherit;
+
+  }
+
+  .background-image {
+    height: 100%;
+    background: url(../img/background.jpg);
+    background-size: cover;
+  }
+  //Override margin for bootstrap
+  .row {
+    margin: 0;
+  }
+
+  #main-holder {
+
+  }
+}
