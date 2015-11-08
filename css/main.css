@@ -41,7 +41,8 @@
     border: 1px solid #00adff;
     border-radius: 1px;
     padding: 10px 7px 10px 7px;
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: 500;
     text-decoration: none;
     color: #00adff;
     transition-duration: 0.3s;
