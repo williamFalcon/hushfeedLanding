@@ -30,12 +30,6 @@
     display: block;
     background: transparent url(../img/hffull.gif) no-repeat center;
     background-size: contain; }
-  .hushfeed .iphone-empty {
-    width: 100%;
-    height: 100%;
-    display: block;
-    background: transparent url(../img/hushfeed.gif) no-repeat center;
-    background-size: contain; }
   .hushfeed .ios-download-button {
     margin: auto;
     border: 1px solid #00adff;
